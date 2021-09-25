@@ -1,0 +1,113 @@
+{
+  "keyboard.dispatch": "keyCode",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.lineHeight": 14,
+  "editor.foldingStrategy": "indentation",
+  "editor.foldingHighlight": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.excludeLanguages": ["markdown"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "jnbt.vscode-rufo"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[blade]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+    "editor.autoClosingBrackets": "always"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "[sql]": {
+    "editor.formatOnSave": false
+  },
+  "[php]": {
+    "editor.tabSize": 4
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "HackGen, 'Ricty Diminished', Menlo, Monaco, monospace, Ubuntu",
+  "rufo.exe": "/Users/gib0017/.anyenv/envs/rbenv/shims/rufo",
+  "editor.rulers": [120],
+  "vetur.grammar.customBlocks": {
+    "docs": "md",
+    "i18n": "json",
+    "page-query": "graphql",
+    "static-query": "graphql"
+  },
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODI3LFwiaGVpZ2h0XCI6MTE2OX0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+  "intelephense.diagnostics.undefinedClassConstants": false,
+  "intelephense.diagnostics.undefinedConstants": false,
+  "intelephense.diagnostics.undefinedFunctions": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.diagnostics.undefinedProperties": false,
+  "intelephense.diagnostics.undefinedSymbols": false,
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.diagnostics.undefinedVariables": false,
+  "intelephense.diagnostics.unusedSymbols": false,
+  "intelephense.environment.phpVersion": "8.0.10",
+  "php.validate.executablePath": "",
+  // "terminal.integrated.gpuAcceleration": "no",
+  "workbench.startupEditor": "none",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "GitHub Dark",
+  "clang-format.executable": "/usr/local/bin/clang-format",
+  "zenMode.hideTabs": false,
+  "zenMode.centerLayout": false,
+  "editor.minimap.enabled": false,
+  "workbench.panel.defaultLocation": "right",
+  "editor.acceptSuggestionOnEnter": "off",
+  "workbench.editor.enablePreview": false,
+  "ruby.lint": {
+    // "rubocop": true
+  },
+  "blade.format.enable": true,
+  "bladeFormatter.format.indentSize": 2,
+  "workbench.editor.focusRecentEditorAfterClose": false,
+  "markdownlint.run": "onSave",
+  "terminal.integrated.defaultProfile.linux": "tmux",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<Enter>"],
+      "commands": ["editor.action.insertLineAfter"]
+    }
+  ],
+  "files.trimFinalNewlines": true,
+  "editor.renderWhitespace": "all",
+  "vim.vimrc.enable": true,
+  "vim.vimrc.path": "/Users/gib0017/.vimrc",
+  "vim.useSystemClipboard": true,
+  "terminal.integrated.fontSize": 14,
+  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.easymotion": true,
+  "vim.easymotionKeys": "sdfghjkl",
+  "vim.hlsearch": true,
+  "workbench.activityBar.visible": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true
+}
