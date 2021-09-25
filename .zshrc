@@ -57,9 +57,3 @@ export PKG_CONFIG_PATH="/usr/local/opt/krb5/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig:$PKG_CONFIG_PATH"
 export CPPFLAGS="-DU_DEFINE_FALSE_AND_TRUE=1"
-
-# atcoder library
-# export CPLUS_INCLUDE_PATH="/Users/gib0017/my-projects/ac-library"
-
-# ビープ音を鳴らさない
-# setopt no_beep
