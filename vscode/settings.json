@@ -9,6 +9,17 @@
   "editor.foldingHighlight": false,
   "emmet.triggerExpansionOnTab": true,
   "emmet.excludeLanguages": ["markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "auto-close-tag.activationOnLanguage": [
+    "php",
+    "blade",
+    "plaintext",
+    "markdown",
+    "vue",
+    "html"
+  ],
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
@@ -16,9 +27,20 @@
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[ruby]": {
-    "editor.defaultFormatter": "jnbt.vscode-rufo"
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
   },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    // "editor.defaultFormatter": "jnbt.vscode-rufo"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "ruby.format": "rufo",
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
@@ -28,7 +50,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[blade]": {
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.defaultFormatter": "shufo.vscode-blade-formatter",
     "editor.autoClosingBrackets": "always"
   },
@@ -38,16 +60,25 @@
   "[sql]": {
     "editor.formatOnSave": false
   },
+  "[svg]": {
+    "editor.formatOnSave": false
+  },
   "[php]": {
     "editor.tabSize": 4
   },
   "[xml]": {
     "editor.defaultFormatter": "DotJoshJohnson.xml"
   },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "HackGen, 'Ricty Diminished', Menlo, Monaco, monospace, Ubuntu",
   "rufo.exe": "/Users/gib0017/.anyenv/envs/rbenv/shims/rufo",
-  "editor.rulers": [120],
+  "editor.rulers": [80, 120],
   "vetur.grammar.customBlocks": {
     "docs": "md",
     "i18n": "json",
@@ -86,28 +117,50 @@
   "workbench.editor.focusRecentEditorAfterClose": false,
   "markdownlint.run": "onSave",
   "terminal.integrated.defaultProfile.linux": "tmux",
+  "files.trimFinalNewlines": true,
+  "editor.formatOnSave": true,
+  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+  "terminal.integrated.fontSize": 14,
+
+  // vim
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["<Enter>"],
       "commands": ["editor.action.insertLineAfter"]
     }
   ],
-  "files.trimFinalNewlines": true,
-  "editor.renderWhitespace": "all",
   "vim.vimrc.enable": true,
   "vim.vimrc.path": "/Users/gib0017/.vimrc",
   "vim.useSystemClipboard": true,
-  "terminal.integrated.fontSize": 14,
-  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "vim.easymotion": true,
   "vim.easymotionKeys": "sdfghjkl",
   "vim.hlsearch": true,
-  "workbench.activityBar.visible": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.exclude": {
+    "/.git": true,
+    "/.DS_Store": true,
+    "/node_modules": true,
+    "/node_modules/": true
   },
-  "editor.formatOnSave": true
+  "files.watcherExclude": {
+    "/node_modules/": true
+  },
+  "explorer.compactFolders": false,
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.defaultLocation": "editor",
+  "tailwindCSS.includeLanguages": {
+    "blade": "html"
+  },
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "redhat.telemetry.enabled": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "remote.SSH.configFile": "~/.ssh/config",
+  "workbench.activityBar.visible": false
 }

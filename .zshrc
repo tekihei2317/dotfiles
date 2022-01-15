@@ -1,3 +1,8 @@
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the start of this file.
+[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
+#### END FIG ENV VARIABLES ####
 eval "$(starship init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(anyenv init -)"
@@ -10,11 +15,15 @@ alias dev='docker-compose -f docker-compose-dev.yml'
 alias art='php artisan'
 alias docom='docker-compose'
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+alias tf='terraform'
 
 # git
 alias gc="git add . && git commit -v"
 alias cbranch="git rev-parse --abbrev-ref HEAD"
 autoload -Uz compinit && compinit
+__git_files () {
+  _files
+}
 
 # compro
 alias ojtp='oj t -c "php main.php"'
@@ -57,3 +66,13 @@ export PKG_CONFIG_PATH="/usr/local/opt/krb5/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig:$PKG_CONFIG_PATH"
 export CPPFLAGS="-DU_DEFINE_FALSE_AND_TRUE=1"
+
+# java
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the end of this file.
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
+
+export GOPATH=$HOME/go
