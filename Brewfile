@@ -23,6 +23,7 @@ cask "alfred"
 cask "amethyst", args: { appdir: "/Applications" }
 cask "discord", args: { appdir: "/Applications" }
 cask "docker", args: { appdir: "/Applications" }
+cask "dropbox"
 cask "font-hackgen"
 cask "google-chrome"
 cask "google-japanese-ime"
