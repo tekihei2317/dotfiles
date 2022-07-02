@@ -1,8 +1,5 @@
-
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the start of this file.
-[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
-#### END FIG ENV VARIABLES ####
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
 eval "$(starship init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(anyenv init -)"
@@ -40,7 +37,7 @@ export EDITOR=vim
 # Ctrl+Pなどを押したとき^Pのようになったため
 bindkey -e
 
-# シェル関数 
+# シェル関数
 . ~/.zsh.d/functions.zsh
 
 # python(for online-judge-tools)
@@ -51,6 +48,9 @@ TIMEFMT=$'\n========================\nProgram : %J\nCPU     : %P\nuser    : %*Us
 
 # npm
 export PATH="./node_modules/.bin:$PATH"
+
+# composer
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # phpenv
 export PATH="/usr/local/opt/bison/bin:$PATH"
@@ -70,9 +70,8 @@ export CPPFLAGS="-DU_DEFINE_FALSE_AND_TRUE=1"
 # java
 export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
 
-#### FIG ENV VARIABLES ####
-# Please make sure this block is at the end of this file.
-[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
-#### END FIG ENV VARIABLES ####
 
 export GOPATH=$HOME/go
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
