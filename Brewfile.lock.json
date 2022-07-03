@@ -5,16 +5,19 @@
         "revision": "405a37682136ac236a3146fdad51d17e07515b9a"
       },
       "homebrew/cask": {
-        "revision": "5c9c9282e5bd398d639082dc7aa0879f68baa8d6"
+        "revision": "aaa0a64e72428f3dda16f85b7b9d30479487905e"
       },
       "homebrew/cask-fonts": {
-        "revision": "40ac7a64450f9827e0d748a6d78760fb078cd0b2"
+        "revision": "460c645d259e946d1ded0dc7798969f29b789a23"
       },
       "homebrew/core": {
-        "revision": "4ac9df16e89aef60dfe88bb0e97a672b8c8031dc"
+        "revision": "a2fa973dc1c7ea8043c85ddf3aaf7a8bdc74dad0"
       },
       "homebrew/services": {
         "revision": "36c2e20cbd592e36c4749aac5f7d4345e8cbbb27"
+      },
+      "koekeishiya/formulae": {
+        "revision": "14828329ddf9c2cd577c672036371ec706f88579"
       }
     },
     "brew": {
@@ -625,6 +628,10 @@
           }
         }
       },
+      "yabai": {
+        "version": "4.0.1",
+        "bottle": false
+      },
       "gh": {
         "version": "2.13.0",
         "bottle": {
@@ -672,15 +679,6 @@
           "full_name": "alfred"
         }
       },
-      "amethyst": {
-        "version": "0.15.6",
-        "options": {
-          "args": {
-            "appdir": "/Applications"
-          },
-          "full_name": "amethyst"
-        }
-      },
       "discord": {
         "version": "0.0.267",
         "options": {
@@ -691,12 +689,18 @@
         }
       },
       "docker": {
-        "version": "4.9.1,81317",
+        "version": "4.10.0,82025",
         "options": {
           "args": {
             "appdir": "/Applications"
           },
           "full_name": "docker"
+        }
+      },
+      "dropbox": {
+        "version": "151.4.4304",
+        "options": {
+          "full_name": "dropbox"
         }
       },
       "font-hackgen": {
@@ -777,12 +781,6 @@
           "full_name": "visual-studio-code"
         }
       },
-      "dropbox": {
-        "version": "151.4.4304",
-        "options": {
-          "full_name": "dropbox"
-        }
-      },
       "notion": {
         "version": "2.0.23",
         "options": {
@@ -790,7 +788,7 @@
         }
       },
       "fig": {
-        "version": "1.0.58,463",
+        "version": "1.0.58,467",
         "options": {
           "full_name": "fig"
         }
@@ -799,18 +797,10 @@
   },
   "system": {
     "macos": {
-      "big_sur": {
-        "HOMEBREW_VERSION": "3.3.10",
-        "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "5130bfe526e1a959c0ba889785b17d1da5da238d",
-        "CLT": "12.5.1.0.1.1623191612",
-        "Xcode": "12.5.1",
-        "macOS": "11.5.2"
-      },
       "monterey": {
         "HOMEBREW_VERSION": "3.5.3",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "4ac9df16e89aef60dfe88bb0e97a672b8c8031dc",
+        "Homebrew/homebrew-core": "a2fa973dc1c7ea8043c85ddf3aaf7a8bdc74dad0",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4",
         "macOS": "12.4"
