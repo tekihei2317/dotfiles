@@ -27,9 +27,6 @@ export EDITOR=vim
 # Ctrl+Pなどを押したとき^Pのようになったため
 bindkey -e
 
-# シェル関数
-. ~/.zsh.d/functions.zsh
-
 # npm
 export PATH="./node_modules/.bin:$PATH"
 
@@ -38,3 +35,6 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
+
+# シェル関数
+. ~/.zsh/functions.zsh
