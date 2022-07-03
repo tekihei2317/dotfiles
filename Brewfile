@@ -34,3 +34,5 @@ cask "postman", args: { appdir: "/Applications" }
 cask "slack", args: { appdir: "/Applications" }
 cask "thunderbird"
 cask "visual-studio-code", args: { appdir: "/Applications" }
+cask "notion"
+cask "fig"
