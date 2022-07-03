@@ -19,6 +19,7 @@ brew "starship"
 brew "tig"
 brew "tmux"
 brew "wget"
+brew "gh"
 cask "alfred"
 cask "amethyst", args: { appdir: "/Applications" }
 cask "discord", args: { appdir: "/Applications" }
