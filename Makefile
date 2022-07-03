@@ -7,4 +7,5 @@ install:
 	ln -sf $(PWD)/.tmux.conf ~/.tmux.conf
 	ln -sf $(PWD)/nvim/init.vim ~/.config/nvim/init.vim
 	ln -sf $(PWD)/karabiner/karabiner.json ~/.config/karabiner/karabiner.json
+	ln -sf $(PWD)/starship.toml ~/.config/starship.toml
 	ln -sf $(PWD)/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
