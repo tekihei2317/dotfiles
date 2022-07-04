@@ -145,5 +145,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.unicodeHighlight.nonBasicASCII": false,
-  "terminal.integrated.persistentSessionReviveProcess": "never"
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "git.autofetch": true
 }

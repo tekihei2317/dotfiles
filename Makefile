@@ -1,6 +1,8 @@
 install:
 	chmod +x ./install.sh
 	./install.sh
+	@make update
+update:
 	ln -sf $(PWD)/.vimrc ~/.vimrc
 	ln -sf $(PWD)/.zshrc ~/.zshrc
 	ln -sf $(PWD)/zsh ~/.zsh
@@ -9,3 +11,4 @@ install:
 	ln -sf $(PWD)/starship.toml ~/.config/starship.toml
 	ln -sf $(PWD)/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 	ln -sf $(PWD)/.yabairc ~/.yabairc
+	ln -sf $(PWD)/.skhdrc ~/.skhdrc

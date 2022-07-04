@@ -21,6 +21,7 @@ brew "tig"
 brew "tmux"
 brew "wget"
 brew "yabai"
+brew "skhd"
 brew "gh"
 cask "alfred"
 cask "discord", args: { appdir: "/Applications" }

@@ -1,0 +1,20 @@
+# Toggle between bsp and stack
+alt + shift - space : [ "$(yabai -m query --spaces --space | jq -r '.type')" = bsp ] \
+    && yabai -m space --layout stack \
+    || yabai -m space --layout bsp
+
+# navigate
+alt - k : yabai -m window --focus stack.prev \
+    || yabai -m window --focus prev
+alt - j : yabai -m window --focus stack.next \
+    || yabai -m window --focus next
+alt - tab : yabai -m window --focus stack.recent \
+    || yabai -m window --focus recent
+alt - h : yabai -m window --focus west
+alt - l : yabai -m window --focus east
+
+# fullscreen
+alt - f : yabai -m window --toggle zoom-fullscreen
+
+# close
+alt - c : yabai -m window --close
