@@ -3,6 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "koekeishiya/formulae"
 brew "anyenv"
 brew "bat"
 brew "coreutils"
@@ -19,8 +20,8 @@ brew "starship"
 brew "tig"
 brew "tmux"
 brew "wget"
+brew "yabai"
 cask "alfred"
-cask "amethyst", args: { appdir: "/Applications" }
 cask "discord", args: { appdir: "/Applications" }
 cask "docker", args: { appdir: "/Applications" }
 cask "dropbox"
