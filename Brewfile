@@ -21,6 +21,7 @@ brew "tig"
 brew "tmux"
 brew "wget"
 brew "yabai"
+brew "gh"
 cask "alfred"
 cask "discord", args: { appdir: "/Applications" }
 cask "docker", args: { appdir: "/Applications" }
@@ -35,3 +36,5 @@ cask "postman", args: { appdir: "/Applications" }
 cask "slack", args: { appdir: "/Applications" }
 cask "thunderbird"
 cask "visual-studio-code", args: { appdir: "/Applications" }
+cask "notion"
+cask "fig"
