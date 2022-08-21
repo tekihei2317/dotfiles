@@ -146,6 +146,5 @@
   },
   "editor.unicodeHighlight.nonBasicASCII": false,
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "git.autofetch": true,
   "githubPullRequests.pullBranch": "never"
 }

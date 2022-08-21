@@ -5,7 +5,8 @@ install:
 update:
 	ln -sf $(PWD)/.vimrc ~/.vimrc
 	ln -sf $(PWD)/.zshrc ~/.zshrc
-	ln -sf $(PWD)/zsh ~/.zsh
+	mkdir -p ~/.zsh
+	ln -sf $(PWD)/zsh/functions.zsh ~/.zsh/functions.zsh
 	ln -sf $(PWD)/.tmux.conf ~/.tmux.conf
 	ln -sf $(PWD)/karabiner/karabiner.json ~/.config/karabiner/karabiner.json
 	ln -sf $(PWD)/starship.toml ~/.config/starship.toml

@@ -11,6 +11,7 @@ brew "direnv"
 brew "docker", link: false
 brew "docker-clean"
 brew "exa"
+brew "fzf"
 brew "ghq"
 brew "htop"
 brew "iproute2mac"
