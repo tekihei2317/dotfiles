@@ -11,5 +11,6 @@ update:
 	ln -sf $(PWD)/karabiner/karabiner.json ~/.config/karabiner/karabiner.json
 	ln -sf $(PWD)/starship.toml ~/.config/starship.toml
 	ln -sf $(PWD)/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+	ln -sf $(PWD)/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 	ln -sf $(PWD)/.yabairc ~/.yabairc
 	ln -sf $(PWD)/.skhdrc ~/.skhdrc

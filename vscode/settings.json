@@ -106,7 +106,7 @@
     }
   ],
   "vim.vimrc.enable": true,
-  "vim.vimrc.path": "/Users/gib0017/.vimrc",
+  "vim.vimrc.path": "~/.vimrc",
   "vim.useSystemClipboard": true,
   "vim.easymotion": true,
   "vim.easymotionKeys": "sdfghjkl",

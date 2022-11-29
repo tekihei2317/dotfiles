@@ -5,5 +5,5 @@ function pcode() {
 }
 
 function tm() {
-  tmux new-session -s `basename $PWD`
+  tmux new-session -A -s `basename $PWD`
 }
