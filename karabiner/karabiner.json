@@ -43,6 +43,32 @@
             ]
           },
           {
+            "description": "日本語入力の時はCをKにする（Cでかくこを入力できるようにする）",
+            "manipulators": [
+              {
+                "conditions": [
+                  {
+                    "input_sources": [
+                      {
+                        "language": "ja"
+                      }
+                    ],
+                    "type": "input_source_if"
+                  }
+                ],
+                "from": {
+                  "key_code": "c"
+                },
+                "to": [
+                  {
+                    "key_code": "k"
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
+          },
+          {
             "description": "Ctrl+MをEnterにする",
             "manipulators": [
               {
