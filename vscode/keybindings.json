@@ -1,24 +1,4 @@
-// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
 [
-  {
-    "key": "ctrl+z",
-    "command": "workbench.action.quickOpenView"
-  },
-  {
-    "key": "ctrl+q",
-    "command": "-workbench.action.quickOpenView"
-  },
-  {
-    "key": "f10",
-    "command": "mysql.runQuery",
-    "when": "editorLangId == 'sql'"
-  },
-  {
-    "key": "f9",
-    "command": "-mysql.runQuery",
-    "when": "editorLangId == 'sql'"
-  },
-  // Editor 内移動
   {
     "key": "ctrl+shift+h",
     "command": "workbench.action.previousEditor"
@@ -32,14 +12,6 @@
     "command": "git-graph.view"
   },
   {
-    "key": "alt+cmd+`",
-    "command": "code-runner.run"
-  },
-  {
-    "key": "ctrl+alt+n",
-    "command": "-code-runner.run"
-  },
-  {
     "key": "ctrl+;",
     "command": "workbench.action.terminal.focus",
     "when": "editorFocus"
@@ -50,29 +22,27 @@
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+g ctrl+b",
-    "command": "gitlens.toggleFileBlame",
-    "when": "editorTextFocus && config.gitlens.keymap == 'alternate' && gitlens:activeFileStatus =~ /blameable/"
-  },
-  {
-    "key": "alt+b",
-    "command": "-gitlens.toggleFileBlame",
-    "when": "editorTextFocus && config.gitlens.keymap == 'alternate' && gitlens:activeFileStatus =~ /blameable/"
-  },
-  {
     "key": "ctrl+=",
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
-    "key": "ctrl+-",
-    "command": "workbench.action.toggleSidebarVisibility"
+    "key": "cmd+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
   },
   {
-    "key": "cmd+k cmd+z",
-    "command": "workbench.action.toggleZenMode"
+    "key": "cmd+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
   },
   {
-    "key": "cmd+k z",
-    "command": "-workbench.action.toggleZenMode"
+    "key": "cmd+k cmd+c",
+    "command": "copyFilePath",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k alt+cmd+c",
+    "command": "-copyFilePath",
+    "when": "editorFocus"
   }
 ]
