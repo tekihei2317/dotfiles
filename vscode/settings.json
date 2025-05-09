@@ -24,7 +24,6 @@
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.editor.focusRecentEditorAfterClose": false,
-  "zenMode.hideTabs": false,
   "files.trimFinalNewlines": true,
 
   "explorer.compactFolders": false,

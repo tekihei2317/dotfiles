@@ -5,7 +5,7 @@ eval "$(direnv hook zsh)"
 eval "$(anyenv init -)"
 
 # エイリアス
-alias ls='exa --time-style=long-iso -g'
+alias ls='eza --time-style=long-iso -g'
 alias ll='ls --git --time-style=long-iso -gl'
 alias la='ls --git --time-style=long-iso -agl'
 alias cat='bat'
